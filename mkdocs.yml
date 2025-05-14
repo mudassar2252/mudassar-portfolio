@@ -1,0 +1,44 @@
+site_name: Mudassar's Portfolio
+site_description: Showcasing My Work in Data Science and AI Development
+site_author: Mudassar
+
+nav:
+  - Home: home.md
+  - Projects: projects.md
+  - Skills: skills.md
+  - Resume: resume.md
+  - About: about.md
+
+theme:
+  name: material 
+  highlightjs: true
+  hljs_style: github
+  navigation_depth: 3
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - codehilite:
+      guess_lang: false
+  - admonition
+  - footnotes
+  - meta
+  - tables
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourusername
+
+# repo_url: https://github.com/yourusername/portfolio
+# repo_name: GitHub
+
+# site_url: https://yourdomain.com
+
