@@ -7,12 +7,15 @@ nav:
   - Projects: projects.md
   - Skills: skills.md
   - Resume: resume.md
-  - About: about.md
+  - About: about.md 
 
 theme:
   name: material 
-  highlightjs: true
-  hljs_style: github
+  favicon: assets/images/favicon.png
+
+
+  highlightjs: true 
+  hljs_style: github 
   navigation_depth: 3
 
 markdown_extensions:
